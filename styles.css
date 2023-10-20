@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(27, 26, 26);
+}
+
+div.Post {
+    width: 450px;
+    margin: auto;
+    background-color: aliceblue;
+    border: 1px rgb(112, 106, 106) solid;
+}
+
+img {
+    width: 450px;
+}
+
+div.post body {
+    display: flex;
+}
+
+div.post-header :first-child {
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+div.post-header,
+span {
+    display: inline-block;
+    width: 5px;
+    padding-left: 8px;
+    text-overflow: ellipsis;
+}
+
+div.post-header {
+    padding: 5px;
+    text-align: justify;
+    display: flex;
+}
+
+div.post-icons {
+    padding: 5px;
+    font-size: 25px;
+}
+
+p {
+    padding: 6px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.post-icons :nth-child(4) {
+    float: right;
+    padding-right: 5px;
+}
+
+div.post-header :last-child {
+    font-size: 30px;
+    display: inline-block;
+    padding-left: 395px;
+    padding-top: 3px;
+}
