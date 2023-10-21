@@ -7,6 +7,7 @@ div.Post {
     margin: auto;
     background-color: aliceblue;
     border: 1px rgb(112, 106, 106) solid;
+    border-radius: 10px;
 }
 
 img {
